@@ -279,3 +279,68 @@ The identification of risks is critical to the project's success. Possible dange
   - As the number of active users grows, which is usually reasonably substantial, managing all of the data in the database gets increasingly complex.
 - Because the system is specially designed to run on the web, it is unquestionably exposed to exploitation and cybersecurity risks.
   - **Solution** : IT security professionals should thoroughly examine and scan the system for vulnerabilities and flaws. They must communicate with the development team and engineers in order to lead them in the creation of a robust and impermeable system.
+
+## Business Use-Case Diagram
+
+![use-case](/images/UseCaseDiagram.jpg)
+
+## Functional Requirements
+
+- Booking a bed: reserving a bed after confirming the availability
+- Assign doctors: the system admin will assign requested doctor
+- Assign Nurse: the system admin will assign Nurse
+- Ordering medicines: patient can able to order medicines through our software
+- Ordering groceries: patient can able to order medicines through our software
+- Supply groceries: volunteer will supply the ordered groceries
+- Supply medicines: volunteer will supply the ordered medicines.
+- Doctor consultation: making request for consulting doctor
+- Checking patient’s records
+- Bill payment: patients can pay bills by cash or by credit card
+- Receipt generation: receipts can be generated after the payments.
+- Serving the patients needs
+- Generate and print patient reports.
+
+## Non-Functional Requirements
+
+There are a lot of non-functional requirements included in the Hospital Management System, which contains various process namely Security, Performance, Maintainability, and Reliability.
+
+- **Security**:
+
+  - Patient Identification
+  - Login details
+  - Health reports
+  - Administrator rights
+
+- **Maintainability**:
+
+  - Login Credentials
+  - Data backups
+  - Error handling
+
+- **Performance**:
+
+  - Response Time
+  - Capacity (number of people can use system at a time)
+  - User-Interface (acknowledges within five sec)
+  - Conformity
+
+- **Reliability**:
+
+  - Availability: System need to available all time to the user
+
+- **Interoperability**:
+
+  - Interoperability makes it easier for medical services providers to share patient information with one another
+
+### Features
+
+- Implementation of chat bots
+- Tele-medicine
+- Food and groceries supply
+- Cross platform support
+- Chatting Application between Volunteers
+- Referral Registration
+
+## Architectural Diagram
+
+![use-case](/images/ClassDiagram.png)
